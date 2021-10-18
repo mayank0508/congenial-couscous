@@ -3,11 +3,14 @@ import './App.css';
 import React from 'react';
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      myage: 20
-    };  
+  // constructor(props) {
+  //   super(props);
+  //   this.state = {
+  //     myage: 20
+  //   };  
+  // }
+  state = {
+    myage: 20
   }
   handleClick = () => {
     this.setState((prevState, prevProps) => {
